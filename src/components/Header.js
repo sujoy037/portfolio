@@ -6,7 +6,7 @@ const Header = () => {
     <Container className="text-center my-4">
       <Row>
         <Col>
-          <Image src="/images/profile.jpg" roundedCircle width={150} />
+          <Image src={process.env.PUBLIC_URL + "/images/profile.jpg"} roundedCircle width={150} />
           <h1 className="mt-3">Sujoy Halsana</h1>
           <p>Software Developer | Full Stack Developer</p>
           <p>Email: sujoy037@gmail.com | Phone: +91 7908937745</p>
