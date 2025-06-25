@@ -1,0 +1,17 @@
+/* src/App.css */
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
