@@ -11,7 +11,7 @@ const Header = () => {
           <p>Software Developer | Full Stack Developer</p>
           <p>Email: sujoy037@gmail.com | Phone: +91 7908937745</p>
           <p>Address:Sodepur Ghola Pubanchal  | City: Kolkata | State:West Bengal | Pin:700111</p>
-          <Button variant="primary" href="/images/resume.pdf" download>
+          <Button variant="primary" href={process.env.PUBLIC_URL + "/images/resume.pdf"} download>
             Download Resume
           </Button>
 
